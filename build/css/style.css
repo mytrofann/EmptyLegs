@@ -408,7 +408,7 @@ img {
   margin: 0 auto;
   padding: 45px 10px;
   padding-left: 250px;
-  padding-bottom: 73px;
+  padding-bottom: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,7 +428,7 @@ img {
   width: 980px;
   margin: 0;
   padding: 0;
-  padding-bottom: 70px;
+  padding-bottom: 73px;
   font-size: 14px;
   font-weight: 700;
   list-style: none;
@@ -555,7 +555,7 @@ img {
   margin: 0;
   padding: 0;
   padding-left: 176px;
-  padding-bottom: 64px;
+  padding-bottom: 61px;
   font-size: 102px;
   font-weight: 600;
   line-height: 72px;
