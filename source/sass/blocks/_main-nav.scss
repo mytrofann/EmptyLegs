@@ -1,0 +1,16 @@
+.main-nav {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 45px 10px;
+  padding-left: 250px;
+  padding-bottom: 73px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+}

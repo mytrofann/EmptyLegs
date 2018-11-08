@@ -1,0 +1,38 @@
+.site-language {
+  top: 45px;
+  right: 0;
+  width: 48px;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.site-language-on .site-language__en {
+  color: #a7d2db;
+}
+
+.site-language-off .site-language__en {
+  display: none;
+}
+
+.site-language-on .site-language__ru {
+  color: #a7d2db;
+}
+
+.site-language-off .site-language__ru {
+  display: none;
+}
+
+.site-language__ru {
+  display: none;
+}
+
+.site-language__item {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}

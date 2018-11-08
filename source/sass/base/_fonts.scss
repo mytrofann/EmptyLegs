@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "PF Din Display Pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local("PF Din Display Pro Thin"),
+  local("PFDinDisplayPro-Thin"),
+  url("../fonts/PFDinDisplayPro-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Din Display Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local("PF Din Display Pro Regular"),
+  local("PFDinDisplayPro-Regular"),
+  url("../fonts/PFDinDisplayPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Din Display Pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local("PF Din Display Pro Medium"),
+  local("PFDinDisplayPro-Medium"),
+  url("../fonts/PFDinDisplayPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Din Display Pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local("PF Din Display Pro Bold"),
+  local("PFDinDisplayPro-Bold"),
+  url("../fonts/PFDinDisplayPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Din Display Pro";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: local("PF Din Display Pro Black"),
+  local("PFDinDisplayPro-Black"),
+  url("../fonts/PFDinDisplayPro-Black.woff") format("woff");
+}

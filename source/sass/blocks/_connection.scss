@@ -1,0 +1,148 @@
+.connection {
+  width: 1280px;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 121px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.connection__title {
+  width: 1280px;
+  margin: 0;
+  padding: 0;
+  padding-left: 317px;
+  padding-bottom: 98px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 21px;
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 60px;
+    left: 629px;
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    background-color: #555555;
+    background-repeat: no-repeat;
+  }
+}
+
+.connection__adress-info {
+  width: 462px;
+  margin: 0;
+  padding: 0 20px;
+  padding-right: 162px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.connection__phone-info {
+  width: 418px;
+  margin: 0;
+  padding: 0;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.connection__email-info {
+  width: 380px;
+  margin: 0;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.connection__item-title  {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.connection__item-image {
+  top: 6px;
+  left: 0;
+  fill: #555555;
+  position: relative;
+}
+
+.connection__item-image-adress {
+  top: 9px;
+}
+
+.connection__item-image-phone {
+  top: 6px;
+  left: -11px;
+}
+
+.connection__item-image-fax {
+  top: 4px;
+  left: -4px;
+}
+
+.connection__item-image-email {
+  top: 7px;
+  left: -8px;
+}
+
+.connection__item-info {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+  color: #7e7e7e;
+}
+
+.connection__adress-title {
+  padding-top: 0px;
+  padding-left: 18px;
+  width: 462px;
+}
+
+.connection__adress {
+  padding-left: 14px;
+  padding-bottom: 20px;
+  font-size: 27px;
+}
+
+.connection__phone-title {
+  padding-left: 45px;
+}
+
+.connection__phone {
+  padding-left: 34px;
+  padding-bottom: 33px;
+}
+
+.connection__fax-title {
+  padding-left: 32px;
+}
+
+.connection__fax {
+  padding-left: 34px;
+  padding-bottom: 20px;
+}
+
+.connection__email-title {
+  padding: 0;
+  padding-left: 39px;
+}
+
+.connection__email {
+  padding-left: 28px;
+  padding-bottom: 20px;
+}

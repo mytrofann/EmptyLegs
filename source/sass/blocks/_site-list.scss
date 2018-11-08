@@ -1,0 +1,29 @@
+.site-list {
+  width: 980px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.site-list a:not([href]) {
+  color: #a7d2db;
+}
+
+.site-list a:hover {
+  color: #a7d2db;
+}
+
+.site-list__item {
+  margin: 0;
+  padding: 0;
+  padding-left: 29px;
+}

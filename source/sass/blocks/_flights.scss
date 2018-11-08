@@ -1,0 +1,86 @@
+.flights {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 45px 10px;
+  padding-bottom: 83px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.flights__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 176px;
+  padding-bottom: 64px;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 72px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.flights__offer {
+  margin: 0;
+  padding: 0;
+  padding-left: 340px;
+  padding-right: 210px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  box-sizing: border-box;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 15px;
+    left: 247px;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #555555;
+  }
+}
+
+.flights__description {
+  margin: 0;
+  padding: 0 70px;
+  padding-left: 90px;
+  padding-bottom: 30px;
+  display: block;
+}
+
+.flights__button-wrapper {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.flights__button {
+  width: 185px;
+  margin: 0;
+  margin-left: 880px;
+  padding: 0;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: #a7d2db;
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 6px;
+    left: 177px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 5px solid #a7d2db;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+}
+

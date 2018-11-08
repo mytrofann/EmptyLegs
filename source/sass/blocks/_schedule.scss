@@ -1,0 +1,168 @@
+.schedule {
+  background-image: linear-gradient(#ffffffe7), url("/img/aircraft@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 185% 150%;
+
+}
+
+.schedule__wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 75px 10px;
+  padding-bottom: 118px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.schedule__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 325px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 21px;
+  position: relative;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    top: 60px;
+    left: 639px;
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    background-color: #555555;
+    background-repeat: no-repeat;
+  }
+}
+
+.schedule__table {
+  padding-left: 55px;
+  padding-bottom: 124px;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  display: block;
+}
+
+.schedule__table caption   {
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+  padding-bottom: 152px;
+  box-sizing: border-box;
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 72px;
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 83px;
+    left: 570px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 18px solid #a7d2db;
+  }
+}
+
+.schedule__table th {
+  padding-bottom: 18px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+.schedule__table th:nth-child(1) {
+  padding-right: 116px;
+  border-left: none;
+}
+
+.schedule__table th:nth-child(2) {
+  padding-right: 83px;
+}
+
+.schedule__table th:nth-child(3) {
+  padding-right: 123px;
+}
+
+.schedule__table th:nth-child(4) {
+  padding-right: 148px;
+}
+
+.schedule__table td {
+  padding: 21px 40px;
+  padding-left: 40px;
+  padding-bottom: 9px;
+  font-size: 21.5px;
+  border-left: 1px solid lightgray;
+}
+
+.schedule__table td:last-child {
+  text-transform: uppercase;
+  border-left: 1px solid lightgray;
+}
+
+.schedule__table td:nth-child(1) {
+  padding-right: 32px;
+  border-left: none;
+}
+
+.schedule__table td:nth-child(2) {
+  padding-right: 60px;
+}
+
+.schedule__table td:nth-child(3) {
+  padding-right: 125px;
+}
+
+.schedule__table td:nth-child(n+2):nth-child(4) {
+  padding-right: 100px;
+}
+
+.schedule__table tr:nth-child(n+2):hover {
+  color: #a7d2db;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.schedule__button {
+  margin: 0;
+  margin-left: 550px;
+  padding: 23px 39px;
+  padding-right: 48px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 3px;
+  letter-spacing: 2px;
+  color: #555555;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  background-color: #a7d2db;
+  cursor: pointer;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 22px;
+    left: 155px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 5px solid #555555;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+}
