@@ -23,19 +23,19 @@ table.addEventListener('click', function (evt) {
   var order = tr.querySelector('td:last-child');
   var scheduleTd = tr.querySelector('td:first-child').textContent;
   var dateTd = tr.querySelector('td:nth-child(2)').textContent;
-   if (target === order) {
-     popup.classList.add("modal-show");
-     schedule.value = scheduleTd;
-     date.value = dateTd;
-    } if (!td) {
-      return;
-    }
-    if (storage) {
-      login.value = storage;
-      email.focus();
-    } else {
-      login.focus();
-    }
+  if (target === order) {
+    popup.classList.add("modal-show");
+    schedule.value = scheduleTd;
+    date.value = dateTd;
+  } else if (!td) {
+    return;
+  }
+  if (storage) {
+    login.value = storage;
+    email.focus();
+  } else {
+    login.focus();
+  }
 });
 
 close.addEventListener("click", function (evt) {
