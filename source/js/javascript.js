@@ -1,6 +1,6 @@
 var table = document.querySelector(".schedule__table");
 var popup = document.querySelector(".modal-login");
-var close = popup.querySelector(".modal-close");
+var close = popup.querySelector(".modal__close");
 var form = popup.querySelector("form");
 var schedule = popup.querySelector("[name=schedule]");
 var date = popup.querySelector("[name=date]");

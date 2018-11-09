@@ -36,7 +36,7 @@
   </svg>
 
   <header class="page-header">
-    <nav class="main-nav main-nav--closed main-nav--nodjs">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
       <ul class="main-nav__list site-list">
         <li class="site-list__item" tabindex="1">
           <a>Чартеры</a>
@@ -289,41 +289,41 @@
 
   <section class="modal modal-login">
     <h2 class="modal__title">Заказать рейс</h2>
-    <form class="modal-form" method="post" action="https://echo.htmlacademy.ru">
-      <p class="modal-form-wrapper">
-        <label for="modal-form-schedule">Рейс:</label>
-        <input type="text" id="modal-form-schedule" placeholder="Los Angeles - Teterboro" name="schedule" readonly
-          checked>
+    <form class="modal__form" method="post" action="https://echo.htmlacademy.ru">
+      <p class="modal__form-wrapper">
+        <label for="modal__form-schedule">Рейс:</label>
+        <input type="text" id="modal__form-schedule" placeholder="Los Angeles - Teterboro" name="schedule" readonly>
       </p>
-      <p class="modal-form-wrapper">
-        <label for="modal-form-date">Дата вылета:</label>
-        <input type="text" id="modal-form-date" placeholder="07 марта 2018 года" name="date" readonly checked>
+      <p class="modal__form-wrapper">
+        <label for="modal__form-date">Дата вылета:</label>
+        <input type="text" id="modal__form-date" placeholder="07 марта 2018 года" name="date" readonly>
       </p>
-      <p class="modal-form-wrapper">
-        <label for="modal-form-name">Ваше имя:</label>
-        <input type="text" id="modal-form-name" name="login" placeholder="Имя Фамилия">
+      <p class="modal__form-wrapper">
+        <label for="modal__form-name">Ваше имя:</label>
+        <input type="text" id="modal__form-name" name="login" placeholder="Имя Фамилия">
       </p>
-      <p class="modal-form-wrapper">
-        <label for="modal-form-name">Ваш e-mail:</label>
-        <input type="email" id="modal-form-email" name="email" placeholder="email@example.com">
+      <p class="modal__form-wrapper">
+        <label for="modal__form-name">Ваш e-mail:</label>
+        <input type="email" id="modal__form-email" name="email" placeholder="email@example.com">
       </p>
-      <p class="modal-form-wrapper">
-        <label for="modal-form-name">Текст письма:</label>
-        <textarea id="modal-form-text" name="text" rows="4" placeholder="В свободной форме">
+      <p class="modal__form-wrapper">
+        <label for="modal__form-name">Текст письма:</label>
+        <textarea id="modal__form-text" name="text" rows="4" placeholder="В свободной форме">
         </textarea>
       </p>
       <button class="modal__button button" type="submit">Заказать</button>
     </form>
-    <button class="modal-close" type="button">
-      <svg class="modal-close__image" width="21px" height="21px">
+    <button class="modal__close" type="button">
+      <svg class="modal__close-image" width="21px" height="21px">
         <use xlink:href="#close-cross"></use>
       </svg>Закрыть</button>
   </section>
   </div>
   </section>
 
-  <script src="js/picturefill.js"></script>
   <script src="js/javascript.js"></script>
+  <script src="js/picturefill.js"></script>
+  <script src="js/scroll.js"></script>
 
 </body>
 

@@ -973,7 +973,6 @@ img {
   font-size: 18px;
   font-weight: 300;
   line-height: 48px;
-  letter-spacing: 2px;
   text-transform: uppercase;
   letter-spacing: 3px; }
 
@@ -1064,7 +1063,7 @@ img {
   line-height: 39px;
   text-transform: uppercase; }
 
-.modal-form {
+.modal__form {
   width: 960px;
   margin: 0;
   padding: 40px 100px;
@@ -1080,24 +1079,24 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.modal-form-wrapper {
+.modal__form-wrapper {
   margin: 0;
   padding: 0;
   margin-bottom: 12px; }
 
-.modal-form-wrapper:nth-child(5) {
+.modal__form-wrapper:nth-child(5) {
   margin-top: 25px;
   margin-bottom: 12px; }
 
-.modal-form label {
+.modal__form label {
   display: block;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
   margin-bottom: 8px; }
 
-.modal-form input[type="text"],
-.modal-form input[type="email"] {
+.modal__form input[type="text"],
+.modal__form input[type="email"] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 360px;
@@ -1111,7 +1110,7 @@ img {
 input:required {
   border: 2px solid #e74246; }
 
-.modal-form textarea[id="modal-form-text"] {
+.modal__form textarea[id="modal__form-text"] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 760px;
@@ -1121,20 +1120,15 @@ input:required {
   border: 1px solid #d7dcde;
   border-radius: 3px;
   margin-bottom: 25px;
-  outline: 0; }
-
-.modal__schedule-name {
-  display: block;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 36px; }
+  outline: 0;
+  resize: none; }
 
 .modal__button {
   margin-left: 595px; }
   .modal__button::before {
     left: 140px; }
 
-.modal-close {
+.modal__close {
   position: absolute;
   top: 80px;
   right: 90px;
@@ -1146,14 +1140,14 @@ input:required {
   cursor: pointer;
   opacity: 0.5; }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal__close:hover,
+.modal__close:focus {
   opacity: 1; }
 
-.modal-close:active {
+.modal__close:active {
   opacity: 0.1; }
 
-.modal-close__image {
+.modal__close-image {
   fill: #555555; }
 
 .modal-show {
